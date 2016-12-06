@@ -1,0 +1,5 @@
+<view>
+    <image src="{{movieDetailData.images.large}}"></image>
+    <view>{{movieDetailData.title}}</view>
+    <view>{{movieDetailData.summary}}</view>
+</view>

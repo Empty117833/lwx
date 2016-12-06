@@ -1,0 +1,17 @@
+/**app.wxss**/
+.indexContainer {
+  height: 1000rpx;
+  background-color: papayawhip;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.navigator-hover {
+    color:blue;
+}
+
+.item {
+	flex:1;
+}
+

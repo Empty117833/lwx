@@ -1,0 +1,15 @@
+<view class="listViewContainer">
+    <scroll-view style="height:2000rpx" scroll-y="true" bindscrolltolower="loadMoreData">
+        <view wx:for="{{movieListData}}">
+            <navigator url="../detail/detail?id={{item.id}}">
+                <image src="{{item.images.medium}}"></image>
+                <view>电影名名： {{item.title}}</view>
+                <view>电影名名： {{item.year}}</view>
+            </navigator>
+        </view>
+        <image style="height:50rpx;width:50rpx;" src="../../images/loading.gif"></image>
+        <loading hidden="{{isLoading}}">
+            加载中...
+        </loading>
+    </scroll-view>
+</view>

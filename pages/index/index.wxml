@@ -1,0 +1,6 @@
+<!--index.wxml 用来进行页面切换的-->
+<view class="indexContainer">
+  <view class="item"><navigator url="../listView/listView?type=in_theaters" hover-class="navigator-hover">正在热映</navigator></view>
+  <view class="item"><navigator url="../listView/listView?type=coming_soon" hover-class="navigator-hover">即将上映</navigator></view>
+  <view class="item"><navigator url="../listView/listView?type=top250" hover-class="navigator-hover">Top250</navigator></view>
+</view>
